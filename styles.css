@@ -10,9 +10,10 @@ html, body {
 
 body {
   min-height: 100vh;
-  display: block; /* Use block to start content from the top */
+  display: block; /* Use block to ensure content starts from the top */
   padding: 20px;
   box-sizing: border-box;
+  overflow-y: auto; /* Allow vertical scrolling */
 }
 
 .container {
@@ -25,7 +26,6 @@ body {
   text-align: center;
   color: #23224d;
   box-sizing: border-box;
-  overflow-y: auto; /* Enable scrolling if needed */
   margin: 0 auto; /* Center horizontally */
 }
 
