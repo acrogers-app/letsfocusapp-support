@@ -4,30 +4,52 @@
     <meta charset="UTF-8">
     <title>Webeuseful – Smart, Ad-Free Apps</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Webeuseful creates smart, ad-free apps that delight and empower users. Discover our beautiful, useful, and privacy-friendly apps!">
+    <meta name="description" content="Webeuseful creates smart, ad-free apps that delight and empower users. Discover beautiful, useful, and privacy-friendly mobile apps!">
     <style>
         body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background: #f6f6fa; color: #222; }
-        .container { max-width: 780px; margin: 40px auto; background: #fff; box-shadow: 0 6px 32px rgba(0,0,0,0.08); border-radius: 16px; padding: 40px 28px 32px 28px; }
-        header { text-align: center; margin-bottom: 20px; }
-        h1 { font-size: 2.8rem; margin: 0 0 0.2em 0; font-weight: 900; color: #1066ff;}
-        .subtitle { font-size: 1.5rem; color: #444; font-weight: 700;}
-        .tagline { margin: 12px 0 20px 0; font-size: 1.1rem; color: #4b7bec; font-style: italic;}
-        section { margin-top: 2.5em; }
-        h2 { color: #1066ff; font-size: 1.45em; margin-bottom: 0.6em; }
-        ul { margin-left: 1.4em; }
-        a { color: #1066ff; }
-        .fun-icon { font-size: 2.1em; vertical-align: middle; margin-right: 8px;}
-        footer { text-align: center; margin-top: 48px; font-size: 1em; color: #888;}
+        .container { max-width: 780px; margin: 40px auto; background: #fff; box-shadow: 0 6px 32px rgba(0,0,0,0.08); border-radius: 16px; padding: 34px 22px 28px 22px; }
+        header { text-align: center; margin-bottom: 22px; }
+        .app-icon-bg {
+            display: flex; align-items: center; justify-content: center;
+            background: linear-gradient(135deg, #eef3fc 85%, #e4eaff 100%);
+            border-radius: 30px;
+            width: 136px; height: 136px;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 8px 36px rgba(0,0,0,0.13);
+        }
+        .app-icon-bg img {
+            width: 104px; height: 104px; display:block; border-radius:20px;
+        }
+        h1 {
+            font-size: 2.6rem; margin: 0 0 0.13em 0; font-weight: 900; color: #2874f2;
+            letter-spacing: -1px;
+        }
+        .subtitle { font-size: 1.25rem; color: #273c75; font-weight: 700;}
+        .tagline { margin: 12px 0 24px 0; font-size: 1.05rem; color: #4985ea;}
+        section { margin-top: 2.1em; }
+        h2 { color: #2874f2; font-size: 1.21em; font-weight: 800; margin: 0 0 0.3em 0; }
+        ul { margin-left: 1.8em; margin-bottom: 0.8em;}
+        a { color: #2874f2; }
+        .fun-icon { font-size: 1.3em; vertical-align: middle; margin-right: 6px;}
+        footer { text-align: center; margin-top: 40px; font-size: 1em; color: #888;}
+        .appstore-link {
+            display:inline-block; font-weight: bold; margin: 16px 0 0 0;
+            font-size: 1.08em; text-decoration: underline; color: #1a4de8;
+        }
         @media (max-width:600px) {
-            .container { padding: 18px 3vw; }
+            .container { padding: 13px 3vw; }
             h1 { font-size: 2rem;}
+            .app-icon-bg { width: 94px; height: 94px;}
+            .app-icon-bg img { width:66px; height:66px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="1024x1024t.png" alt="Webeuseful Logo" style="width:136px; height:136px; display:block; margin:0 auto 14px auto; border-radius:28px; box-shadow:0 8px 36px rgba(0,0,0,0.10);">
+            <div class="app-icon-bg">
+                <img src="2048x2048.png" alt="Webeuseful App Icon">
+            </div>
             <div>
                 <span class="fun-icon">✨</span>
                 <span class="subtitle">Webeuseful</span>
@@ -39,7 +61,7 @@
         <section>
             <h2>Our Philosophy</h2>
             <p>
-                At <strong>Webeuseful</strong>, we believe technology should <b>help you</b> &mdash; not constantly interrupt or monetize you. 
+                At <strong>Webeuseful</strong>, we believe technology should <b>help you</b> — not constantly interrupt or monetize you.<br>
                 That's why every app we make is:
             </p>
             <ul>
@@ -52,7 +74,7 @@
         <section>
             <h2>Why You'll Love Our Apps</h2>
             <ul>
-                <li>No ads &mdash; ever. No popups, no tracking, no annoying interruptions.</li>
+                <li>No ads — ever. No popups, no tracking, no annoying interruptions.</li>
                 <li>Beautiful, intuitive design that just makes sense.</li>
                 <li>Crafted with care: we listen to users and deliver delightful updates.</li>
                 <li>Apps that respect your time and your attention.</li>
@@ -62,9 +84,8 @@
         <section>
             <h2>Try Webeuseful</h2>
             <p>
-                Download our latest app from the App Store and see how refreshing useful, ad-free tech can be. 
-                <br><br>
-                <a href="https://apps.apple.com/developer/webeuseful/idYOUR_APPLE_ID_HERE" style="font-weight:600;">See all our apps on the App Store &rarr;</a>
+                Download our latest app from the App Store and experience refreshing, ad-free smart tech.<br>
+                <a class="appstore-link" href="https://apps.apple.com/us/iphone/search?term=allen%20rogers" target="_blank">See all our apps on the App Store &rarr;</a>
             </p>
         </section>
         
